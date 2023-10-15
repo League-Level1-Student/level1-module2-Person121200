@@ -14,6 +14,9 @@ public class SeaCreature {
 
 
 	private String name;
+	SeaCreature Spongebob = new SeaCreature("Spongebob");
+	SeaCreature Patrick = new SeaCreature("Patrick");
+	SeaCreature Squidward = new SeaCreature("Squidward");
 
 	SeaCreature(String name) {
 		this.name = name;
@@ -35,6 +38,20 @@ public class SeaCreature {
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
+	}
+
+	public void showButton() {
+		Spongebob.getName();
+		Spongebob.eat();
+		Spongebob.laugh();
+		Patrick.getName();
+		Patrick.eat();
+		Patrick.laugh();
+		Squidward.getName();
+		Squidward.eat();
+		Squidward.laugh();
+		
+		
 	}
 
 }
