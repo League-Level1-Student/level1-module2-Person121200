@@ -13,8 +13,8 @@ import org.junit.Test;
 /*
 
 1. 
-Run this MinionTest class. Notice the JUnit tab (by the Package Explorer). It shows a RED bar, because the tests do
-not run successfully. Check the Failure Trace below that shows "Minion cannot be resolved to a type". 
+Run this MinionTest class. Notice the JUnit tab (byackage Explorer). It shows a RED bar, because the tests do
+not run successfully. Check the Failure Trace below that the P shows "Minion cannot be resolved to a type". 
 This is because there is no Minion class in the package.
 
 2.
